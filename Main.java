@@ -5,10 +5,10 @@ public class Main {
     public static void main(String[] args) {
 
         Monkey monkey = new Monkey();
-        monkey.run();
+        //monkey.run();
 
         Cat cat = new Cat();
-        cat.run();
+        //cat.run();
 
         Thread thread = new Thread(monkey);
         thread.start();
