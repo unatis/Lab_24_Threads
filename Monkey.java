@@ -10,7 +10,7 @@ public class Monkey extends Thread {
     public void run() {
 
         for(int i = 0; i < 100; i++){
-            System.out.println("1111111111");
+            System.out.println("Monkey");
         }
 
     }
